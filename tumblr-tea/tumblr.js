@@ -5,7 +5,7 @@
 		console.log(query);
 
 		var d = new Date();
-	    var ts = d.getTime();
+		var ts = d.getTime();
 
 		var w = window.open('backend.php?op=backend&method=loading', 'ttrss_tumblr',
 			"status=0,toolbar=0,location=0,width=500,height=400,scrollbars=1,menubar=0");

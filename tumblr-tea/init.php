@@ -9,9 +9,9 @@ class Tumblr extends Plugin {
 	}
 
 	function about() {
-		return array(1.0,
-			"Share article on Tumblr",
-			"epyon_avenger (templated from Twitter plugin)",
+		return array(1.1,
+			"Share article on Tumblr (templated from Twitter plugin)",
+			"epyon_avenger",
 			false);
 	}
 
