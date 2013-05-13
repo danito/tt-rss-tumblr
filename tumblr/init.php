@@ -22,7 +22,7 @@ class Tumblr extends Plugin {
 	function hook_article_button($line) {
 		$article_id = $line["id"];
 
-		$rv = "<img src=\"plugins/tumblr_tea/tumblr.png\"
+		$rv = "<img src=\"plugins/tumblr/tumblr.png\"
 			class='tagsPic' style=\"cursor : pointer\"
 			onclick=\"tumblrArticle($article_id)\"
 			title='".__('Share on Tumblr')."'>";
